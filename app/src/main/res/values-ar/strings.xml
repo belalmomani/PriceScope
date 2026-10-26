@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">قارن قبل أن تشتري</string>
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+    <string name="search_hint">ابحث عن منتج أو موديل</string>
+    <string name="choose_country">اختر دولتك</string>
+    <string name="country_chip_prefix">الشحن إلى</string>
+    <string name="select_country_first_title">اختر الدولة التي تشتري لها</string>
+    <string name="select_country_first_body">الأسعار والشحن والضرائب تعتمد على دولة الشراء.</string>
+    <string name="no_sources_title">لا توجد مصادر بيانات مفعّلة بعد</string>
+    <string name="no_sources_body">ستظهر نتائج الأسعار هنا عند تفعيل مصدر بيانات لدولتك. لا نعرض شيئًا قبل وجود بيانات حقيقية.</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="setting_country">دولة الشراء</string>
+    <string name="setting_currency">عملة العرض</string>
+    <string name="setting_language">اللغة</string>
+    <string name="setting_theme">المظهر</string>
+    <string name="country_note">الدولة تحدد المتاجر وتكاليف الشحن المعروضة، ولا تتغير بتغيير اللغة أو العملة.</string>
+    <string name="currency_note">تغيير العملة يغيّر طريقة عرض الأسعار فقط، ولا يغيّر دولة الشراء.</string>
+    <string name="language_note">تغيير اللغة لا يغيّر دولتك ولا عملتك.</string>
+    <string name="search_countries">ابحث عن دولة</string>
+    <string name="search_currencies">ابحث عن عملة</string>
+    <string name="use_device_country">استخدم دولة هذا الجهاز</string>
+    <string name="currency_country_default">عملة الدولة المختارة</string>
+    <string name="not_selected">غير محددة</string>
+    <string name="language_system">لغة الجهاز</string>
+    <string name="theme_system">حسب النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="version_label">الإصدار %1$s (%2$d)</string>
+    <string name="no_results">لا توجد نتائج</string>
+</resources>

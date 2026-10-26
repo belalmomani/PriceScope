@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">खरीदने से पहले तुलना करें</string>
+    <string name="tab_home">होम</string>
+    <string name="tab_settings">सेटिंग्स</string>
+    <string name="back">वापस</string>
+    <string name="search_hint">कोई उत्पाद या मॉडल खोजें</string>
+    <string name="choose_country">अपना देश चुनें</string>
+    <string name="country_chip_prefix">शिपिंग</string>
+    <string name="select_country_first_title">खरीदारी का देश चुनें</string>
+    <string name="select_country_first_body">कीमतें, शिपिंग और टैक्स उस देश पर निर्भर करते हैं जिसके लिए आप खरीद रहे हैं।</string>
+    <string name="no_sources_title">अभी कोई डेटा स्रोत जुड़ा नहीं है</string>
+    <string name="no_sources_body">आपके देश के लिए डेटा स्रोत जुड़ने पर कीमतें यहाँ दिखेंगी। असली डेटा के बिना कुछ नहीं दिखाया जाता।</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="setting_country">खरीदारी का देश</string>
+    <string name="setting_currency">दिखाई जाने वाली मुद्रा</string>
+    <string name="setting_language">भाषा</string>
+    <string name="setting_theme">दिखावट</string>
+    <string name="country_note">देश तय करता है कि कौन से स्टोर और शिपिंग लागत दिखें। भाषा या मुद्रा बदलने पर यह नहीं बदलता।</string>
+    <string name="currency_note">मुद्रा बदलने से केवल कीमतों का प्रदर्शन बदलता है, खरीदारी का देश नहीं।</string>
+    <string name="language_note">भाषा बदलने से आपका देश या मुद्रा नहीं बदलती।</string>
+    <string name="search_countries">देश खोजें</string>
+    <string name="search_currencies">मुद्रा खोजें</string>
+    <string name="use_device_country">इस डिवाइस का देश उपयोग करें</string>
+    <string name="currency_country_default">चुने गए देश की मुद्रा</string>
+    <string name="not_selected">चुना नहीं गया</string>
+    <string name="language_system">डिवाइस की भाषा</string>
+    <string name="theme_system">सिस्टम के अनुसार</string>
+    <string name="theme_light">हल्का</string>
+    <string name="theme_dark">गहरा</string>
+    <string name="version_label">संस्करण %1$s (%2$d)</string>
+    <string name="no_results">कोई परिणाम नहीं</string>
+</resources>

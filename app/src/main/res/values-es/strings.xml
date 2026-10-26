@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Compara antes de comprar</string>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="back">Atrás</string>
+    <string name="search_hint">Busca un producto o modelo</string>
+    <string name="choose_country">Elige tu país</string>
+    <string name="country_chip_prefix">Envío a</string>
+    <string name="select_country_first_title">Elige el país de compra</string>
+    <string name="select_country_first_body">Los precios, el envío y los impuestos dependen del país para el que compras.</string>
+    <string name="no_sources_title">Aún no hay fuentes de datos conectadas</string>
+    <string name="no_sources_body">Los precios aparecerán aquí cuando haya una fuente de datos conectada para tu país. No se muestra nada sin datos reales.</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="setting_country">País de compra</string>
+    <string name="setting_currency">Moneda de visualización</string>
+    <string name="setting_language">Idioma</string>
+    <string name="setting_theme">Apariencia</string>
+    <string name="country_note">El país determina las tiendas y los costes de envío que se muestran. No cambia al cambiar el idioma o la moneda.</string>
+    <string name="currency_note">Cambiar la moneda solo cambia cómo se muestran los precios, no el país de compra.</string>
+    <string name="language_note">Cambiar el idioma no cambia tu país ni tu moneda.</string>
+    <string name="search_countries">Buscar país</string>
+    <string name="search_currencies">Buscar moneda</string>
+    <string name="use_device_country">Usar el país de este dispositivo</string>
+    <string name="currency_country_default">Moneda del país seleccionado</string>
+    <string name="not_selected">Sin seleccionar</string>
+    <string name="language_system">Idioma del dispositivo</string>
+    <string name="theme_system">Seguir el sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="version_label">Versión %1$s (%2$d)</string>
+    <string name="no_results">Sin resultados</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">购买前先比价</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_settings">设置</string>
+    <string name="back">返回</string>
+    <string name="search_hint">搜索商品或型号</string>
+    <string name="choose_country">选择你的国家</string>
+    <string name="country_chip_prefix">配送至</string>
+    <string name="select_country_first_title">选择购买所在国家</string>
+    <string name="select_country_first_body">价格、运费和税费取决于你购买商品的目的国家。</string>
+    <string name="no_sources_title">尚未连接任何数据源</string>
+    <string name="no_sources_body">当你所在国家连接数据源后，价格结果会显示在这里。没有真实数据时不会显示任何内容。</string>
+    <string name="settings_title">设置</string>
+    <string name="setting_country">购买国家</string>
+    <string name="setting_currency">显示货币</string>
+    <string name="setting_language">语言</string>
+    <string name="setting_theme">外观</string>
+    <string name="country_note">国家决定显示哪些商店和运费。更改语言或货币不会改变国家。</string>
+    <string name="currency_note">更改货币只会改变价格的显示方式，不会改变购买国家。</string>
+    <string name="language_note">更改语言不会改变你的国家或货币。</string>
+    <string name="search_countries">搜索国家</string>
+    <string name="search_currencies">搜索货币</string>
+    <string name="use_device_country">使用此设备所在的国家</string>
+    <string name="currency_country_default">所选国家的货币</string>
+    <string name="not_selected">未选择</string>
+    <string name="language_system">设备语言</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="version_label">版本 %1$s（%2$d）</string>
+    <string name="no_results">无结果</string>
+</resources>

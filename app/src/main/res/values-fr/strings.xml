@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Comparez avant d\'acheter</string>
+    <string name="tab_home">Accueil</string>
+    <string name="tab_settings">Paramètres</string>
+    <string name="back">Retour</string>
+    <string name="search_hint">Rechercher un produit ou un modèle</string>
+    <string name="choose_country">Choisissez votre pays</string>
+    <string name="country_chip_prefix">Livraison vers</string>
+    <string name="select_country_first_title">Choisissez le pays d\'achat</string>
+    <string name="select_country_first_body">Les prix, la livraison et les taxes dépendent du pays pour lequel vous achetez.</string>
+    <string name="no_sources_title">Aucune source de données connectée</string>
+    <string name="no_sources_body">Les prix apparaîtront ici dès qu\'une source de données sera connectée pour votre pays. Rien n\'est affiché sans données réelles.</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="setting_country">Pays d\'achat</string>
+    <string name="setting_currency">Devise d\'affichage</string>
+    <string name="setting_language">Langue</string>
+    <string name="setting_theme">Apparence</string>
+    <string name="country_note">Le pays détermine les boutiques et les frais de livraison affichés. Il ne change pas quand vous changez la langue ou la devise.</string>
+    <string name="currency_note">Changer la devise modifie seulement l\'affichage des prix, pas le pays d\'achat.</string>
+    <string name="language_note">Changer la langue ne modifie ni votre pays ni votre devise.</string>
+    <string name="search_countries">Rechercher un pays</string>
+    <string name="search_currencies">Rechercher une devise</string>
+    <string name="use_device_country">Utiliser le pays de cet appareil</string>
+    <string name="currency_country_default">Devise du pays sélectionné</string>
+    <string name="not_selected">Non défini</string>
+    <string name="language_system">Langue de l\'appareil</string>
+    <string name="theme_system">Suivre le système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="version_label">Version %1$s (%2$d)</string>
+    <string name="no_results">Aucun résultat</string>
+</resources>
