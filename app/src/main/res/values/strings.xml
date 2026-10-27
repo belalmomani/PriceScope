@@ -31,4 +31,12 @@
     <string name="theme_dark">Dark</string>
     <string name="version_label">Version %1$s (%2$d)</string>
     <string name="no_results">No results</string>
+    <string name="ad_label">Ad</string>
+    <string name="setting_ads">Ads</string>
+    <string name="ads_consent_title">Ads in PriceScope</string>
+    <string name="ads_consent_body">PriceScope is free with ads. Paid plans remove ads. Allow personalised ads based on your device data? If you decline you still see ads, but they are not personalised. You can change this later in Settings.</string>
+    <string name="ads_allow">Allow</string>
+    <string name="ads_deny">Don\'t allow</string>
+    <string name="ads_personalised">Personalised ads</string>
+    <string name="ads_non_personalised">Non-personalised ads</string>
 </resources>

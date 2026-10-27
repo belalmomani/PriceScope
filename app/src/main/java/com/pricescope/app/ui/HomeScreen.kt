@@ -23,7 +23,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.pricescope.app.BuildConfig
 import com.pricescope.app.R
+import com.pricescope.app.core.AdsManager
+import com.pricescope.app.designsystem.AdBanner
 import com.pricescope.app.core.AppSettings
 import com.pricescope.app.core.Countries
 import com.pricescope.app.designsystem.Dimens
@@ -88,6 +91,12 @@ fun HomeScreen(settings: AppSettings, onPickCountry: () -> Unit) {
                 title = stringResource(R.string.no_sources_title),
                 body = stringResource(R.string.no_sources_body)
             )
+        }
+
+        // Debug builds only: lets us verify the Start.io pipeline with TEST ads.
+        // Release builds show banners only next to real results, never on empty screens.
+        if (BuildConfig.DEBUG && AdsManager.ready) {
+            AdBanner()
         }
     }
 }

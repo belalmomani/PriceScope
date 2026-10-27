@@ -30,4 +30,12 @@
     <string name="theme_dark">داكن</string>
     <string name="version_label">الإصدار %1$s (%2$d)</string>
     <string name="no_results">لا توجد نتائج</string>
+    <string name="ad_label">إعلان</string>
+    <string name="setting_ads">الإعلانات</string>
+    <string name="ads_consent_title">الإعلانات في PriceScope</string>
+    <string name="ads_consent_body">PriceScope مجاني مع إعلانات، والخطط المدفوعة تزيل الإعلانات. هل تسمح بإعلانات مخصصة بناءً على بيانات جهازك؟ إن رفضت ستظل ترى إعلانات لكنها غير مخصصة. يمكنك تغيير ذلك لاحقًا من الإعدادات.</string>
+    <string name="ads_allow">أسمح</string>
+    <string name="ads_deny">لا أسمح</string>
+    <string name="ads_personalised">إعلانات مخصصة</string>
+    <string name="ads_non_personalised">إعلانات غير مخصصة</string>
 </resources>

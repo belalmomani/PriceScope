@@ -30,4 +30,12 @@
     <string name="theme_dark">Oscuro</string>
     <string name="version_label">Versión %1$s (%2$d)</string>
     <string name="no_results">Sin resultados</string>
+    <string name="ad_label">Anuncio</string>
+    <string name="setting_ads">Anuncios</string>
+    <string name="ads_consent_title">Anuncios en PriceScope</string>
+    <string name="ads_consent_body">PriceScope es gratis con anuncios. Los planes de pago los eliminan. ¿Permites anuncios personalizados según los datos de tu dispositivo? Si no los permites, seguirás viendo anuncios, pero no personalizados. Puedes cambiarlo después en Ajustes.</string>
+    <string name="ads_allow">Permitir</string>
+    <string name="ads_deny">No permitir</string>
+    <string name="ads_personalised">Anuncios personalizados</string>
+    <string name="ads_non_personalised">Anuncios no personalizados</string>
 </resources>

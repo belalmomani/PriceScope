@@ -30,4 +30,12 @@
     <string name="theme_dark">深色</string>
     <string name="version_label">版本 %1$s（%2$d）</string>
     <string name="no_results">无结果</string>
+    <string name="ad_label">广告</string>
+    <string name="setting_ads">广告</string>
+    <string name="ads_consent_title">PriceScope 中的广告</string>
+    <string name="ads_consent_body">PriceScope 免费使用并含广告，付费方案可去除广告。是否允许根据你的设备数据展示个性化广告？如果拒绝，仍会看到广告，但不是个性化的。你可以稍后在设置中更改。</string>
+    <string name="ads_allow">允许</string>
+    <string name="ads_deny">不允许</string>
+    <string name="ads_personalised">个性化广告</string>
+    <string name="ads_non_personalised">非个性化广告</string>
 </resources>

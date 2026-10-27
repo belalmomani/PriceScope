@@ -90,6 +90,16 @@ fun SettingsScreen(settings: AppSettings, onOpen: (Screen) -> Unit) {
                 trailing = themeLabel(settings.themeMode),
                 onClick = { onOpen(Screen.Theme) }
             )
+            HorizontalDivider(color = MaterialTheme.colorScheme.outline, thickness = 0.5.dp)
+            PsListRow(
+                title = stringResource(R.string.setting_ads),
+                trailing = when (settings.adsPersonalised) {
+                    true -> stringResource(R.string.ads_personalised)
+                    false -> stringResource(R.string.ads_non_personalised)
+                    null -> notSelected
+                },
+                onClick = { onOpen(Screen.Ads) }
+            )
         }
         Text(
             stringResource(R.string.version_label, BuildConfig.VERSION_NAME, BuildConfig.VERSION_CODE),
@@ -256,5 +266,27 @@ fun ThemeScreen(settings: AppSettings, onBack: () -> Unit) {
                 onClick = { settings.setTheme(mode); onBack() }
             )
         }
+    }
+}
+
+@Composable
+fun AdsScreen(settings: AppSettings, onBack: () -> Unit) {
+    SubScreen(stringResource(R.string.setting_ads), onBack) {
+        Text(
+            stringResource(R.string.ads_consent_body),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(horizontal = Dimens.ScreenPadding, vertical = 8.dp)
+        )
+        PsListRow(
+            title = stringResource(R.string.ads_personalised),
+            selected = settings.adsPersonalised == true,
+            onClick = { settings.setAdsPersonalised(true); onBack() }
+        )
+        PsListRow(
+            title = stringResource(R.string.ads_non_personalised),
+            selected = settings.adsPersonalised == false,
+            onClick = { settings.setAdsPersonalised(false); onBack() }
+        )
     }
 }

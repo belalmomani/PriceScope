@@ -30,4 +30,12 @@
     <string name="theme_dark">गहरा</string>
     <string name="version_label">संस्करण %1$s (%2$d)</string>
     <string name="no_results">कोई परिणाम नहीं</string>
+    <string name="ad_label">विज्ञापन</string>
+    <string name="setting_ads">विज्ञापन</string>
+    <string name="ads_consent_title">PriceScope में विज्ञापन</string>
+    <string name="ads_consent_body">PriceScope विज्ञापनों के साथ मुफ़्त है। भुगतान वाली योजनाएँ विज्ञापन हटा देती हैं। क्या आप अपने डिवाइस के डेटा के आधार पर वैयक्तिकृत विज्ञापनों की अनुमति देते हैं? मना करने पर भी विज्ञापन दिखेंगे, लेकिन वैयक्तिकृत नहीं होंगे। आप इसे बाद में सेटिंग्स में बदल सकते हैं।</string>
+    <string name="ads_allow">अनुमति दें</string>
+    <string name="ads_deny">अनुमति न दें</string>
+    <string name="ads_personalised">वैयक्तिकृत विज्ञापन</string>
+    <string name="ads_non_personalised">गैर-वैयक्तिकृत विज्ञापन</string>
 </resources>

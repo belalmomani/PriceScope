@@ -30,4 +30,12 @@
     <string name="theme_dark">Sombre</string>
     <string name="version_label">Version %1$s (%2$d)</string>
     <string name="no_results">Aucun résultat</string>
+    <string name="ad_label">Annonce</string>
+    <string name="setting_ads">Publicités</string>
+    <string name="ads_consent_title">Publicités dans PriceScope</string>
+    <string name="ads_consent_body">PriceScope est gratuit avec des publicités. Les forfaits payants les suppriment. Autoriser des publicités personnalisées basées sur les données de votre appareil ? Si vous refusez, vous verrez quand même des publicités, mais non personnalisées. Vous pouvez changer cela plus tard dans les paramètres.</string>
+    <string name="ads_allow">Autoriser</string>
+    <string name="ads_deny">Ne pas autoriser</string>
+    <string name="ads_personalised">Publicités personnalisées</string>
+    <string name="ads_non_personalised">Publicités non personnalisées</string>
 </resources>
