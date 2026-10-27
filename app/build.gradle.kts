@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.google.services)
 }
 
@@ -17,10 +18,15 @@ android {
 
     defaultConfig {
         applicationId = "com.pricescope.app"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 36
         versionCode = versionProps.getProperty("VERSION_CODE").trim().toInt()
         versionName = versionProps.getProperty("VERSION_NAME").trim()
+
+        // Public client values only. The publishable key is designed to ship inside the app;
+        // data is protected by Row Level Security. NEVER put a secret / service_role key here.
+        buildConfigField("String", "SUPABASE_URL", "\"https://zysdoclcwbvmrhfoahxg.supabase.co\"")
+        buildConfigField("String", "SUPABASE_PUBLISHABLE_KEY", "\"sb_publishable_yu35-83IDr0S_pv-6IovJA_dUDS4skh\"")
     }
 
     // The signing key is NEVER stored in the repo. CI decodes it from GitHub Secrets
@@ -81,6 +87,12 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material.icons.core)
     implementation(libs.startio.inapp)
+
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(platform(libs.supabase.bom))
+    implementation(libs.supabase.auth)
+    implementation(libs.supabase.postgrest)
+    implementation(libs.ktor.client.okhttp)
 
     testImplementation(libs.junit)
 }

@@ -38,4 +38,20 @@
     <string name="ads_deny">لا أسمح</string>
     <string name="ads_personalised">إعلانات مخصصة</string>
     <string name="ads_non_personalised">إعلانات غير مخصصة</string>
+    <string name="setting_account">الحساب</string>
+    <string name="account_signed_out">غير مسجّل</string>
+    <string name="auth_email">البريد الإلكتروني</string>
+    <string name="auth_password">كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="switch_to_sign_up">جديد هنا؟ أنشئ حسابًا</string>
+    <string name="switch_to_sign_in">لديك حساب؟ سجّل الدخول</string>
+    <string name="signed_in_as">مسجّل الدخول باسم %1$s</string>
+    <string name="auth_invalid_input">أدخل بريدًا صحيحًا وكلمة مرور من 6 أحرف على الأقل.</string>
+    <string name="auth_invalid_credentials">البريد أو كلمة المرور غير صحيحة.</string>
+    <string name="auth_network_error">تعذّر الوصول إلى الخادم. تحقق من الاتصال وحاول مجددًا.</string>
+    <string name="auth_already_registered">هذا البريد مسجّل مسبقًا. جرّب تسجيل الدخول.</string>
+    <string name="auth_generic_error">حدث خطأ ما. حاول مرة أخرى.</string>
+    <string name="auth_confirm_email">افتح بريدك واضغط رابط التأكيد، ثم سجّل الدخول.</string>
 </resources>

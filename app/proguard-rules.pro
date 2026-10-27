@@ -7,3 +7,8 @@
 -dontwarn android.webkit.JavascriptInterface
 -dontwarn com.startapp.**
 -dontwarn org.jetbrains.annotations.**
+
+# Ktor / kotlinx.serialization on Android (referenced-but-absent JVM classes)
+-dontwarn java.lang.management.ManagementFactory
+-dontwarn java.lang.management.RuntimeMXBean
+-dontwarn org.slf4j.**

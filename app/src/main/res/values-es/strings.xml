@@ -38,4 +38,20 @@
     <string name="ads_deny">No permitir</string>
     <string name="ads_personalised">Anuncios personalizados</string>
     <string name="ads_non_personalised">Anuncios no personalizados</string>
+    <string name="setting_account">Cuenta</string>
+    <string name="account_signed_out">Sesión cerrada</string>
+    <string name="auth_email">Correo electrónico</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="sign_up">Crear cuenta</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="switch_to_sign_up">¿Eres nuevo? Crea una cuenta</string>
+    <string name="switch_to_sign_in">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="signed_in_as">Sesión iniciada como %1$s</string>
+    <string name="auth_invalid_input">Introduce un correo válido y una contraseña de al menos 6 caracteres.</string>
+    <string name="auth_invalid_credentials">Correo o contraseña incorrectos.</string>
+    <string name="auth_network_error">No se puede conectar con el servidor. Revisa tu conexión e inténtalo de nuevo.</string>
+    <string name="auth_already_registered">Este correo ya está registrado. Prueba a iniciar sesión.</string>
+    <string name="auth_generic_error">Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="auth_confirm_email">Revisa tu correo, abre el enlace de confirmación y luego inicia sesión.</string>
 </resources>

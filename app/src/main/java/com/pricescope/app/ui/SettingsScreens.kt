@@ -42,7 +42,7 @@ import com.pricescope.app.designsystem.PsSearchField
 import java.util.Locale
 
 @Composable
-private fun SubScreen(title: String, onBack: () -> Unit, content: @Composable () -> Unit) {
+internal fun SubScreen(title: String, onBack: () -> Unit, content: @Composable () -> Unit) {
     Column(Modifier.fillMaxSize()) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -58,7 +58,7 @@ private fun SubScreen(title: String, onBack: () -> Unit, content: @Composable ()
 }
 
 @Composable
-fun SettingsScreen(settings: AppSettings, onOpen: (Screen) -> Unit) {
+fun SettingsScreen(settings: AppSettings, accountEmail: String?, onOpen: (Screen) -> Unit) {
     val notSelected = stringResource(R.string.not_selected)
     val languageValue = currentLanguageLabel()
     Column(
@@ -67,6 +67,12 @@ fun SettingsScreen(settings: AppSettings, onOpen: (Screen) -> Unit) {
     ) {
         Text(stringResource(R.string.settings_title), style = MaterialTheme.typography.headlineSmall)
         PsCard(Modifier.fillMaxWidth()) {
+            PsListRow(
+                title = stringResource(R.string.setting_account),
+                trailing = accountEmail ?: stringResource(R.string.account_signed_out),
+                onClick = { onOpen(Screen.Auth) }
+            )
+            HorizontalDivider(color = MaterialTheme.colorScheme.outline, thickness = 0.5.dp)
             PsListRow(
                 title = stringResource(R.string.setting_country),
                 trailing = Countries.nameOf(settings.countryCode) ?: notSelected,

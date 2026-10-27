@@ -25,12 +25,14 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.pricescope.app.R
+import com.pricescope.app.auth.AuthViewModel
 import com.pricescope.app.core.AdsManager
 import com.pricescope.app.core.AppSettings
 import com.pricescope.app.core.Entitlements
 
-enum class Screen { Home, Settings, Country, Currency, Language, Theme, Ads }
+enum class Screen { Home, Settings, Country, Currency, Language, Theme, Ads, Auth }
 
 @Composable
 fun AppRoot(settings: AppSettings) {
@@ -38,6 +40,7 @@ fun AppRoot(settings: AppSettings) {
     var previous by rememberSaveable { mutableStateOf(Screen.Home) }
     val isTop = screen == Screen.Home || screen == Screen.Settings
     val context = LocalContext.current
+    val authVm: AuthViewModel = viewModel()
     // Every user is "free" until accounts and billing are connected (see Entitlements).
     val entitlements = remember { Entitlements() }
     val adsChoice = settings.adsPersonalised
@@ -95,12 +98,13 @@ fun AppRoot(settings: AppSettings) {
         Box(Modifier.fillMaxSize().padding(padding)) {
             when (screen) {
                 Screen.Home -> HomeScreen(settings, onPickCountry = { open(Screen.Country) })
-                Screen.Settings -> SettingsScreen(settings, onOpen = { open(it) })
+                Screen.Settings -> SettingsScreen(settings, accountEmail = authVm.state.signedInEmail, onOpen = { open(it) })
                 Screen.Country -> CountryPickerScreen(settings, onBack = { screen = previous })
                 Screen.Currency -> CurrencyPickerScreen(settings, onBack = { screen = previous })
                 Screen.Language -> LanguageScreen(onBack = { screen = previous })
                 Screen.Theme -> ThemeScreen(settings, onBack = { screen = previous })
                 Screen.Ads -> AdsScreen(settings, onBack = { screen = previous })
+                Screen.Auth -> AuthScreen(authVm, onBack = { screen = previous })
             }
         }
     }

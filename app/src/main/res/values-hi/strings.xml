@@ -38,4 +38,20 @@
     <string name="ads_deny">अनुमति न दें</string>
     <string name="ads_personalised">वैयक्तिकृत विज्ञापन</string>
     <string name="ads_non_personalised">गैर-वैयक्तिकृत विज्ञापन</string>
+    <string name="setting_account">खाता</string>
+    <string name="account_signed_out">साइन आउट</string>
+    <string name="auth_email">ईमेल</string>
+    <string name="auth_password">पासवर्ड</string>
+    <string name="sign_in">साइन इन करें</string>
+    <string name="sign_up">खाता बनाएँ</string>
+    <string name="sign_out">साइन आउट करें</string>
+    <string name="switch_to_sign_up">नए हैं? खाता बनाएँ</string>
+    <string name="switch_to_sign_in">पहले से खाता है? साइन इन करें</string>
+    <string name="signed_in_as">%1$s के रूप में साइन इन</string>
+    <string name="auth_invalid_input">मान्य ईमेल और कम से कम 6 अक्षरों का पासवर्ड दर्ज करें।</string>
+    <string name="auth_invalid_credentials">ईमेल या पासवर्ड गलत है।</string>
+    <string name="auth_network_error">सर्वर तक नहीं पहुँच सके। अपना कनेक्शन जाँचें और फिर कोशिश करें।</string>
+    <string name="auth_already_registered">यह ईमेल पहले से पंजीकृत है। साइन इन करके देखें।</string>
+    <string name="auth_generic_error">कुछ गलत हो गया। कृपया फिर कोशिश करें।</string>
+    <string name="auth_confirm_email">अपना ईमेल देखें, पुष्टि लिंक खोलें, फिर साइन इन करें।</string>
 </resources>

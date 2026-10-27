@@ -38,4 +38,20 @@
     <string name="ads_deny">Ne pas autoriser</string>
     <string name="ads_personalised">Publicités personnalisées</string>
     <string name="ads_non_personalised">Publicités non personnalisées</string>
+    <string name="setting_account">Compte</string>
+    <string name="account_signed_out">Déconnecté</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Mot de passe</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">Créer un compte</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="switch_to_sign_up">Nouveau ? Créer un compte</string>
+    <string name="switch_to_sign_in">Déjà un compte ? Se connecter</string>
+    <string name="signed_in_as">Connecté en tant que %1$s</string>
+    <string name="auth_invalid_input">Saisissez un e-mail valide et un mot de passe d\'au moins 6 caractères.</string>
+    <string name="auth_invalid_credentials">E-mail ou mot de passe incorrect.</string>
+    <string name="auth_network_error">Impossible de joindre le serveur. Vérifiez votre connexion et réessayez.</string>
+    <string name="auth_already_registered">Cet e-mail est déjà enregistré. Essayez de vous connecter.</string>
+    <string name="auth_generic_error">Une erreur s\'est produite. Veuillez réessayer.</string>
+    <string name="auth_confirm_email">Consultez votre e-mail, ouvrez le lien de confirmation, puis connectez-vous.</string>
 </resources>
